@@ -1,6 +1,6 @@
 {
   "name": "mongoose-queue-embeded",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A simple queue using mongoose with embeded objects.",
   "main": "index.js",
   "scripts": {
