@@ -61,12 +61,12 @@ module.exports = mongoose.model('Document', itemSchema);
 const Document = require('../document');
 
 var myOptions = {
-	payloadRefType: Document.schema,
 	queueCollection: 'queue',
 	blockDuration: 30000,
 	maxRetries: 5
 }
-var myQueue = new MongooseQueue('payload', 'my-worker-id', myOptions);
+
+var myQueue = new MongooseQueue(Document, 'my-worker-id', myOptions);
 ```
 
 ### Adding a job to the queue
