@@ -1,0 +1,36 @@
+{
+  "name": "mongoose-queue-embeded",
+  "version": "0.0.3",
+  "description": "A simple queue using mongoose with embeded objects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec --recursive",
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --recursive"
+  },
+  "keywords": [
+    "mongoose",
+    "mongodb",
+    "queue"
+  ],
+  "author": "Rubén Sahagún",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rubenofen/MongooseQueue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rubenofen/MongooseQueue/issues"
+  },
+  "homepage": "https://github.com/rubenofen/MongooseQueue",
+  "dependencies": {
+    "mongoose": "^4.5.8",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "bluebird": "^3.4.1",
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.4",
+    "mocha": "^3.0.1",
+    "mockgoose": "^6.0.6"
+  }
+}
