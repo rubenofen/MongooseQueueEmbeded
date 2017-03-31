@@ -41,12 +41,6 @@ module.exports = function (collectionName, payloadRefType) {
 				default: false,
 				required: true
 			},
-			//Is the job is being procesed or not (Does not matter if successful or not)
-			process: {
-				type: Boolean,
-				default: false,
-				required: true
-			},
 			// last error that occured while processing
 			error: {
 				type: String,
